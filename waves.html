@@ -6,28 +6,28 @@
 
 h1 {
 	color: #6d6d6d;
-    font-family: "Century Gothic", Monospace, sans-serif;
+    font-family: "Century Gothic", Arial, Monospace, sans-serif;
     font-style: normal;
     font-weight: normal;
 }
 
 h2 {
 	color: #56c9dd;
-    font-family: "Century Gothic", Monospace, sans-serif;
+    font-family: "Century Gothic", Arial, Monospace, sans-serif;
     font-style: normal;
     font-weight: normal;
 }
 
 h3 {
 	color: #7e71b7;
-    font-family: "Century Gothic", Monospace, sans-serif;
+    font-family: "Century Gothic", Arial, Monospace, sans-serif;
     font-style: normal;
     font-weight: normal;
 }
 
 p {
 	color: #6d6d6d;
-    font-family: "Century Gothic", Monospace, sans-serif;
+    font-family: "Century Gothic", Arial, Monospace, sans-serif;
     font-style: normal;
     font-weight: normal;
 }
@@ -102,7 +102,7 @@ p {
 
 <h2>Bittrex Exchange</h2>
 <h3>WAVES/BTC</h3>
-<p id="Last"></p>
+<p id="last1"></p>
 	<p><i>JQuerry Data Coming Soon</i></p>
 <br>
 
@@ -112,7 +112,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         myObj = JSON.parse(this.responseText);
-        document.getElementById("Last").innerHTML = myObj.name;
+        document.getElementById("last1").innerHTML = myObj.name;
     }
 };
 xmlhttp.open("GET", "https://bittrex.com/api/v1.1/public/getticker/?market=BTC-WAVES", true);
@@ -128,7 +128,7 @@ xmlhttp.send();
 
 <h2>HitBTC Exchange</h2>
 <h3>WAVES/BTC</h3>
-<p id="last"></p>
+<p id="last2"></p>
 	<p><i>JQuerry Data Coming Soon</i></p>
 <br>
 
@@ -138,7 +138,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         myObj = JSON.parse(this.responseText);
-        document.getElementById("last").innerHTML = myObj.name;
+        document.getElementById("last2").innerHTML = myObj.name;
     }
 };
 xmlhttp.open("GET", "https://api.hitbtc.com/api/1/public/WAVESBTC/ticker", true);
