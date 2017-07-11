@@ -106,23 +106,7 @@ p {
 	<p><i>JQuerry Data Coming Soon</i></p>
 <br>
 
-<script>
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
-        document.getElementById("last1").innerHTML = myObj.name;
-    }
-};
-xmlhttp.open("GET", "https://bittrex.com/api/v1.1/public/getticker/?market=BTC-WAVES", true);
-xmlhttp.send();
-
-</script>
-
 <p>Data Source: <a href="https://bittrex.com/api/v1.1/public/getticker/?market=BTC-WAVES" target="_blank">Bittrex WAVES/BTC</a></p>
-
-<hr>
 
 <!-- HitBTC Exchange information import -->
 
@@ -131,22 +115,6 @@ xmlhttp.send();
 <p id="last2"></p>
 	<p><i>JQuerry Data Coming Soon</i></p>
 <br>
-
-<script>
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
-        document.getElementById("last2").innerHTML = myObj.name;
-    }
-};
-xmlhttp.open("GET", "https://api.hitbtc.com/api/1/public/WAVESBTC/ticker", true);
-xmlhttp.send();
-
-</script>
-
-
 
 <p>Data Source: <a href="https://api.hitbtc.com/api/1/public/WAVESBTC/ticker" target="_blank">HitBTC WAVES/BTC</a></p>
 
