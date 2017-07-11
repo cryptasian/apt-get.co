@@ -1,6 +1,7 @@
 # Welcome to apt-get.co
-`a project by resonova`
-[Visit the ResoNova website here](https://www.resonova.com)
+ _a project by resonova_
+
+_[Visit the ResoNova website here](https://www.resonova.com)_
 
 ### Explore Project Pages
 - [Matrix Rain](http://www.apt-get.co/matrix.html)
