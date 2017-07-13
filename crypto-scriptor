@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+
+/* crypto-scriptor
+Assets: "ANS (ANS)"; "Siacoin (SC)"; "STRAT (STRAT)"; "Voxels (VOX)"; "WAVES (WAVES)"
+Source Data: https://www.cryptonator.com/widget */
+
+</style>
+</head>
+
+<body>
+
+<div id="ans">
+<script id="ans" type="text/javascript">
+	crypt_multi_num_cur = "2";
+	crypt_base_cur_0 = "ANS (ANS)";
+	crypt_target_cur_0 = "Bitcoin (BTC)";
+	crypt_base_cur_1 = "ANS (ANS)";
+	crypt_target_cur_1 = "US Dollar (USD)";
+	crypt_multi_border_width = 0;
+	crypt_multi_font_color = "#6d6d6d";
+	</script>
+    <script id="myCryp" type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
+    </div>
+
+<div id="sc">
+<script id="sc" type="text/javascript">
+	crypt_multi_num_cur = "2";
+	crypt_base_cur_0 = "Siacoin (SC)";
+	crypt_target_cur_0 = "Bitcoin (BTC)";
+	crypt_base_cur_1 = "Siacoin (SC)";
+	crypt_target_cur_1 = "US Dollar (USD)";
+	crypt_multi_border_width = 0;
+	crypt_multi_font_color = "#6d6d6d";
+	</script>
+    <script id="myCryp" type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
+    </div>
+    
+<div id="strat">
+<script id="strat" type="text/javascript">
+	crypt_multi_num_cur = "2";
+	crypt_base_cur_0 = "STRAT (STRAT)";
+	crypt_target_cur_0 = "Bitcoin (BTC)";
+	crypt_base_cur_1 = "STRAT (STRAT)";
+	crypt_target_cur_1 = "US Dollar (USD)";
+	crypt_multi_border_width = 0;
+	crypt_multi_font_color = "#6d6d6d";
+	</script>
+    <script id="myCryp" type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
+    </div>
+
+<div id="vox">
+<script id="vox" type="text/javascript">
+	crypt_multi_num_cur = "2";
+	crypt_base_cur_0 = "Voxels (VOX)";
+	crypt_target_cur_0 = "Bitcoin (BTC)";
+	crypt_base_cur_1 = "Voxels (VOX)";
+	crypt_target_cur_1 = "US Dollar (USD)";
+	crypt_multi_border_width = 0;
+	crypt_multi_font_color = "#6d6d6d";
+	</script>
+    <script id="myCryp" type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
+    </div>
+    
+<div id="waves">
+<script id="waves" type="text/javascript">
+	crypt_multi_num_cur = "2";
+	crypt_base_cur_0 = "WAVES (WAVES)";
+	crypt_target_cur_0 = "Bitcoin (BTC)";
+	crypt_base_cur_1 = "WAVES (WAVES)";
+	crypt_target_cur_1 = "US Dollar (USD)";
+	crypt_multi_border_width = 0;
+	crypt_multi_font_color = "#6d6d6d";
+	</script>
+    <script id="myCryp" type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
+    </div>
+    
+</body>
+</html>
