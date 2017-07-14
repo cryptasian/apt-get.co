@@ -16,7 +16,7 @@
 		height: 100%;
 		border: 0;
 		}
-	  .bgparam{
+	  .bgparam {
 		float:left;
 		position:absolute;
 		width:100%;
@@ -24,15 +24,21 @@
 		top:0;
 		z-index:-1;
 	  	}
+	  
 	  body {
+		background-color: #141414;
+	  	}
+	  
+	  #matrixDiv {
     		background-image: linear-gradient(to bottom, black 100%,green 20%), url("http://apt-get.co/matrix.gif");
-    		background-color: #141414;
-		background-repeat:no-repeat;
+    		position: absolute;
+		background-size: 2500px 2500px;
+		background-repeat: no-repeat;
 		background-blend-mode: color-dodge;
 		}
   </style>
 </head>
-<body>
+<body><div id="matrixDiv">
 
 	
 <h1>CRYPTO-SCRIPTOR</h1>
@@ -101,6 +107,7 @@
 	</script>
     <script id="myCryp" type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
     </div>
-	
+
+	</div>
 </body>
 </html>
