@@ -9,11 +9,7 @@
 		font-family:"Arial";
 		}
 	#myFilter {
-    		-webkit-filter: blur(4px); 
-    		filter: blur(4px), opacity(70%);
-		width: 100%;
-		height: 100%;
-		border: 0;
+    		
 		}
 	#miframe{
 		position:relative;
@@ -38,6 +34,10 @@
 		background-color:transparent;
 		border:0;
 		} 
+	body, html {
+    		height: 100%;
+    		margin: 0;
+		}
 	 body {
 		background-color: #050505;
 		position: relative;
@@ -53,11 +53,23 @@
 		position: absolute;
 		z-index: -1;
 	  	}
+	.bg {
+    		/* The image used */
+    		/*background-image: url("img_girl.jpg"); */
+    		/* Full height */
+    		height: 100%; 
+    		/* Center and scale the image nicely */
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+		-webkit-filter: blur(4px); 
+    		filter: blur(4px), opacity(70%);
+		}
   </style>
 </head>
 <body>
 	
-<header><iframe id="myFilter" src="http://www.apt-get.co/matrix.html" overflow="auto" scrolling="no"></iframe></header>
+<header><iframe class="bg" src="http://www.apt-get.co/matrix.html" overflow="auto" scrolling="no"></iframe></header>
 <h1>CRYPTO-SCRIPTOR</h1>
 <br>
 	<input type="button" value="REFRESH" onClick="history.go(0)">
