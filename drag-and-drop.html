@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- ****** META CONFIGURATIONS ****** -->
+<title>Drag and Drop</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Drag and drop different html elements into other locations">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ****** STYLE CONFIGURATIONS ****** -->
+<style>
+
+#myDiv {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+img {
+    display: inline-block;
+    dropzone: move;
+}
+</style>
+
+<!-- ****** SCRIPT CONFIGURATIONS ******-->
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<p>Click and drag the following elements:</p>
+
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p><img src="smiley.gif" alt="Smiley face 1" width="42" height="42" draggable="true" ondragstart="drag(event)" id="drag1"></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p><img src="smiley.gif" alt="Smiley face 2" width="42" height="42" draggable="true" ondragstart="drag(event)" id="drag1"></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p><img src="smiley.gif" alt="Smiley face 3" width="42" height="42" draggable="true" ondragstart="drag(event)" id="drag1"></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p><img src="smiley.gif" alt="Smiley face 4" width="42" height="42" draggable="true" ondragstart="drag(event)" id="drag1"></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p><img src="smiley.gif" alt="Smiley face 5" width="42" height="42" draggable="true" ondragstart="drag(event)" id="drag1"></p></div><br><br>
+
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p></p></div><br><br>
+<div id="myDiv" ondrop="drop(event)" ondragover="allowDrop(event)" dropzone="move"><p></p></div><br><br>
+
+</body>
+</html>
