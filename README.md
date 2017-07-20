@@ -20,6 +20,8 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
 <br>
+<hr>
+<br>
 
 ## HANDY CODE SNIPS
 
@@ -174,79 +176,7 @@ Here's how the button code functions when implemented properly:
 </body>
 </html>
 ```
-
-Here's how the responsive website is rendered when implemented properly:
-
-<iframe>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-* {
-    box-sizing: border-box;
-}
-.header, .footer {
-    background-color: grey;
-    color: white;
-    padding: 15px;
-}
-.column {
-    float: left;
-    padding: 15px;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.menu {
-    width: 25%;
-}
-.content {
-    width: 75%;
-}
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu li {
-    padding: 8px;
-    margin-bottom: 8px;
-    background-color: #33b5e5;
-    color: #ffffff;
-}
-.menu li:hover {
-    background-color: #0099cc;
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>The Flexible Website</h1>
-</div>
-
-<div class="clearfix">
-  <div class="column menu">
-    <ul>
-      <li>Option 1</li>
-      <li>Option 2</li>
-      <li>Option 3</li>
-      <li>Option 4</li>
-    </ul>
-  </div>
-
-  <div class="column content">
-    <h1>Some Flexible Content</h1>
-    <p>This is an epic paragraph on an epic auto-resizing "responsive" website template layout. Check out how well this thing resizes by viewing this page with alternate resolutions.</p>
-    <p>Expect great things. Do great things.</p>
-  </div>
-</div>
-
-<div class="footer">
-  <p>($) ¯\_(ツ)_/¯ (฿)</p>
-</div>
-
-</body>
-</html></iframe>
+<br>
+<br>
+<hr>
+<br>
