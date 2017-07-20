@@ -6,7 +6,7 @@
 
 ### Explore Project Pages
 
-
+```
 - [Matrix Rain](http://www.apt-get.co/matrix.html)
 
 - [Waves Platform Data](http://www.apt-get.co/waves.html)
@@ -20,3 +20,4 @@
 - [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
 - MORE PAGES COMING SOON
+```
