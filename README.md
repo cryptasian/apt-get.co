@@ -47,9 +47,13 @@ _live link: [apt-get.co](http://www.apt-get.co)_
       </a>
 </iframe>
 ```
- <br>
+
+<br><div>
+
 ### 2) TIME-STAMP FETCHER BUTTON
-<br>
+
+<br></div>
+
 ```
 <!DOCTYPE html>
 <html>
@@ -67,6 +71,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 ```
 
 Here's how the button code functions when implemented properly:
+
 <div>
 <html>
     <body>
