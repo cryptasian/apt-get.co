@@ -67,33 +67,82 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 ```
 <!DOCTYPE html>
 <html>
-    <body>
-        <p>Click the button to display the time.
-        </p>
-        <button 
-            onclick="getElementById('timeOUTPUT').innerHTML=Date()">
-            CURRENT TIME
-        </button>
-        <p id="timeOUTPUT">
-            </p>
-    </body>
+<head><style>
+	.btn {
+    		border: none;
+    		color: white;
+    		padding: 12px 26px;
+		    margin: 5px;
+    		font-size: 16px;
+    		cursor: pointer;
+    		box-sizing: border-box;
+      		box-shadow: 2px 3px 4px #888888;
+		}
+		.success {background-color: #4CAF50;} /* Green */
+		.success:hover {background-color: #46a049;}
+		.info {background-color: #2196F3;} /* Blue */
+		.info:hover {background: #0b7dda;}
+	</style></head>
+<body>
+        <h2>Click a button to display the time.</h2>
+        <hr><br>
+	<h3>Button 1</h3>
+        <input class="btn success"
+		  type="button"
+		  value="GET TIME"
+		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
+	<p id="timeOUTPUT1">RESULT 1</p>
+    <br>
+	<h3>Button 2</h3>
+		<input class="btn info" 
+    		type="button" 
+    		value="GET TIME" 
+    		onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
+	<p id="timeOUTPUT2">RESULT 2</p>
+    <br>
+</body>
 </html>
 ```
 
 Here's how the button code functions when implemented properly:
 
 <div>
+<!DOCTYPE html>
 <html>
-  <body>
-      <p>Click the button to display the time.
-      </p>
-      <button 
-        onclick="getElementById('timeOUTPUT').innerHTML=Date()">
-        CURRENT TIME
-      </button>
-      <p id="timeOUTPUT">
-        </p>
-  </body>
+<head><style>
+	.btn {
+    		border: none;
+    		color: white;
+    		padding: 12px 26px;
+		    margin: 5px;
+    		font-size: 16px;
+    		cursor: pointer;
+    		box-sizing: border-box;
+      		box-shadow: 2px 3px 4px #888888;
+		}
+		.success {background-color: #4CAF50;} /* Green */
+		.success:hover {background-color: #46a049;}
+		.info {background-color: #2196F3;} /* Blue */
+		.info:hover {background: #0b7dda;}
+	</style></head>
+<body>
+        <h2>Click a button to display the time.</h2>
+        <hr><br>
+	<h3>Button 1</h3>
+        <input class="btn success"
+		  type="button"
+		  value="GET TIME"
+		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
+	<p id="timeOUTPUT1">RESULT 1</p>
+    <br>
+	<h3>Button 2</h3>
+		<input class="btn info" 
+    		type="button" 
+    		value="GET TIME" 
+    		onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
+	<p id="timeOUTPUT2">RESULT 2</p>
+    <br>
+</body>
 </html>
 </div>
 
@@ -195,11 +244,11 @@ First of all, be sure to make use of the following CSS code either in an externa
     		border: none;
     		color: white;
     		padding: 12px 26px;
-		    margin: 5px;
+		margin: 5px;
     		font-size: 16px;
     		cursor: pointer;
     		box-sizing: border-box;
-      box-shadow: 2px 3px 4px #888888;
+      		box-shadow: 2px 3px 4px #888888;
 		}
 		.success {background-color: #4CAF50;} /* Green */
 		.success:hover {background-color: #46a049;}
