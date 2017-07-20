@@ -17,7 +17,11 @@
 		.info:hover {background: #0b7dda;}
 	</style></head>
 <body>
-  <h2>Click a button to display the time.</h2>
+  <h2>Click the "GET TIME" buttons to display the current time.</h2>
+	<input class="btn info" 
+    	type="button" 
+    	onclick="location.href='http://www.apt-get.co';" 
+    	value="VIEW GITHUB PAGE">
     <hr><br>
 	<h3>Button 1</h3>
         <input class="btn success"
@@ -25,13 +29,13 @@
 		  value="GET TIME"
 		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
 	    <p id="timeOUTPUT1">RESULT 1</p>
-    <br>
+    <hr><br>
 	<h3>Button 2</h3>
 		  <input class="btn info" 
     	type="button" 
     	value="GET TIME" 
     	onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
 	    <p id="timeOUTPUT2">RESULT 2</p>
-    <br>
+    <hr><br>
 </body>
 </html>
