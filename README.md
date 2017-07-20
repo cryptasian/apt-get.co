@@ -104,51 +104,6 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 </html>
 ```
 
-Here's how the button code functions when implemented properly:
-
-<br>
-
-<html>
-	<head><style>
-	.btn {
-    		border: none;
-    		color: white;
-    		padding: 12px 26px;
-		    margin: 5px;
-    		font-size: 16px;
-    		cursor: pointer;
-    		box-sizing: border-box;
-      		box-shadow: 2px 3px 4px #888888;
-		}
-		.success {background-color: #4CAF50;} /* Green */
-		.success:hover {background-color: #46a049;}
-		.info {background-color: #2196F3;} /* Blue */
-		.info:hover {background: #0b7dda;}
-	</style></head>
-	<body>
-        
-        <hr><br>
-	<h3>Button 1</h3>
-        <input class="btn success"
-		  type="button"
-		  value="GET TIME"
-		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
-	<p id="timeOUTPUT1">RESULT 1</p>
-    	<br>
-	<h3>Button 2</h3>
-		<input class="btn info" 
-    		type="button" 
-    		value="GET TIME" 
-    		onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
-	<p id="timeOUTPUT2">RESULT 2</p>
-    	<br>
-	</body>
-</html>
-
-<br><br>
-<br>
-<hr>
-
 <br>
 
 ### 3) BASIC RESPONSIVE WEBSITE
