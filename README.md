@@ -177,6 +177,85 @@ Here's how the button code functions when implemented properly:
 </html>
 ```
 <br>
+
+### 4) USEFUL BUTTONS
+
 <br>
+
+First of all, be sure to make use of the following CSS code (either in an external style sheet or in your "style" tag of your HTML document):
+
+
+```
+.btn {
+    		border: none;
+    		color: white;
+    		padding: 12px 26px;
+		    margin: 5px;
+    		font-size: 16px;
+    		cursor: pointer;
+    		box-sizing: border-box;
+      box-shadow: 2px 3px 4px #888888;
+		}
+		.success {background-color: #4CAF50;} /* Green */
+		.success:hover {background-color: #46a049;}
+		.info {background-color: #2196F3;} /* Blue */
+		.info:hover {background: #0b7dda;}
+		.warning {background-color: #ff9800;} /* Orange */
+		.warning:hover {background: #e68a00;}
+		.danger {background-color: #f44336;} /* Red */ 
+		.danger:hover {background: #da190b;}
+		.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+		.default:hover {background: #ddd;}
+```
+
+<br>
+
+After you have set up the CSS above, you can successfully implement the following buttons anywhere in your website. Please note that, if you would like to change the color type of your button, simply alter the "class" tag to one of the classes defined in the CSS code above. Those class types are as follows:
+
+- class="btn success" (A green button)
+- class="btn info" (A blue button)
+- class="btn warning" (A red button)
+- class="btn danger" (A yellow button)
+- class="btn default" (A gray button)
+
+Here is a "REFRESH" button which refreshes the page when clicked by the viewer:
+
+<br>
+
+```
+<input class="btn danger" 
+    type="button" 
+    value="REFRESH PAGE" 
+    onClick="history.go(0)">  
+```
+
+<br>
+
+Here is a "BACK" button which sends the user back to whatever page they were on before arriving at the current page:
+
+<br>
+
+```
+<input class="btn success" 
+    type="button" 
+    value="BACK" 
+    onClick="history.go(-1)">  
+```
+
+<br>
+
+Here is an IP Check button which sends the user to the Google IP checking page:
+
+<br>
+
+```
+<input class="btn info" 
+    type="button" 
+    onclick="location.href='https://domains.google.com/checkip';" 
+    value="CHECK YOUR IP">
+```
+
+<br>
+
 <hr>
 <br>
