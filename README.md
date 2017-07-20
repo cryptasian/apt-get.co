@@ -26,8 +26,24 @@
 ### FULL PAGE IFRAME
 
 ```
-<iframe src="http://www.apt-get.co" security="restricted" sandbox style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"><a href="http://www.apt-get.co"> Proceed to the apt-get project page.</a>
-  </iframe>
+<iframe 
+    src="http://www.apt-get.co" 
+    security="restricted" 
+    sandbox 
+    style="position:fixed; 
+    top:0px; left:0px; 
+    bottom:0px; 
+    right:0px; 
+    width:100%; 
+    height:100%; 
+    border:none; 
+    margin:0; 
+    padding:0; 
+    overflow:hidden; 
+    z-index:999999;">
+  <a href="http://www.apt-get.co"> Proceed to the apt-get project page.
+    </a>
+</iframe>
  ```
  <br>
  
