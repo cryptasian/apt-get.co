@@ -32,7 +32,10 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 <br>
 
 ```
-<iframe 
+<!DOCTYPE html>
+<html>
+<body>
+	<iframe 
     src="http://www.apt-get.co" 
     security="restricted" 
     sandbox 
@@ -47,10 +50,12 @@ _live link: [apt-get.co](http://www.apt-get.co)_
     padding:0; 
     overflow:hidden; 
     z-index:999999;">
-  <a href="http://www.apt-get.co"> 
+  	<a href="http://www.apt-get.co"> 
     Proceed to the apt-get project page.
       </a>
-</iframe>
+	</iframe>
+	</body>
+</html>
 ```
 
 <br>
