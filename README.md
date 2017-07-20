@@ -41,13 +41,14 @@
     padding:0; 
     overflow:hidden; 
     z-index:999999;">
-  <a href="http://www.apt-get.co"> Proceed to the apt-get project page.
-    </a>
+  <a href="http://www.apt-get.co"> 
+    Proceed to the apt-get project page.
+      </a>
 </iframe>
  ```
  <br>
  
- ### TIME TRAVEL BUTTON
+ ### TIME-STAMP FETCHER BUTTON
  
  ```
  <!DOCTYPE html>
