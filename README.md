@@ -21,10 +21,10 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 
 <br>
 
-# HANDY CODE SNIPS
+## HANDY CODE SNIPS
 
 
-## 1) FULL PAGE IFRAME
+### 1) FULL PAGE IFRAME
 
 ```
 <iframe 
@@ -48,7 +48,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 </iframe>
 ```
  <br>
- ## 2) TIME-STAMP FETCHER BUTTON
+### 2) TIME-STAMP FETCHER BUTTON
 <br>
 ```
 <!DOCTYPE html>
@@ -67,7 +67,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 ```
 
 Here's how the button code functions when implemented properly:
-
+<div>
 <html>
     <body>
         <p>Click the button to display the time.
@@ -80,6 +80,9 @@ Here's how the button code functions when implemented properly:
             </p>
     </body>
 </html>
+</div>
 
-<br><br><br><br>
+<br><br>
+<br>
 <hr>
+<br>
