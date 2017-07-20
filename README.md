@@ -77,16 +77,16 @@ Here's how the button code functions when implemented properly:
 
 <div>
 <html>
-    <body>
-        <p>Click the button to display the time.
+  <body>
+      <p>Click the button to display the time.
+      </p>
+      <button 
+        onclick="getElementById('timeOUTPUT').innerHTML=Date()">
+        CURRENT TIME
+      </button>
+      <p id="timeOUTPUT">
         </p>
-        <button 
-            onclick="getElementById('timeOUTPUT').innerHTML=Date()">
-            CURRENT TIME
-        </button>
-        <p id="timeOUTPUT">
-            </p>
-    </body>
+  </body>
 </html>
 </div>
 
