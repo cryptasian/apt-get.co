@@ -19,6 +19,8 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 
 [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
+[Time Fetch](http://www.apt-get.co/time-fetch.html)
+
 <br>
 <hr>
 <br>
@@ -61,6 +63,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 <br>
 
 ### 2) TIME-STAMP FETCHER BUTTON
+Live Example: [Time Fetch](http://www.apt-get.co/time-fetch.html)
 
 <br>
 
@@ -187,8 +190,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 <br>
 
 ### 4) USEFUL BUTTONS
-
-<br>
+Live Example: [Time Fetch](http://www.apt-get.co/time-fetch.html)
 
 First of all, be sure to make use of the following CSS code either in an external style sheet or in the "style" tag of your HTML document:
 
