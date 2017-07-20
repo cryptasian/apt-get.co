@@ -25,8 +25,7 @@
 
 ### FULL PAGE IFRAME
 <br>
-```
-<iframe 
+```<iframe 
     src="http://www.apt-get.co" 
     security="restricted" 
     sandbox 
@@ -44,14 +43,12 @@
   <a href="http://www.apt-get.co"> 
     Proceed to the apt-get project page.
       </a>
-</iframe>
- ```
+</iframe> ```
  <br>
  
  ### TIME-STAMP FETCHER BUTTON
  <br>
- ```
- <!DOCTYPE html>
+```<!DOCTYPE html>
 <html>
     <body>
         <p>Click the button to display the time.
@@ -63,6 +60,5 @@
         <p id="timeOUTPUT">
             </p>
     </body>
-</html>
-```
+</html>```
 <br>
