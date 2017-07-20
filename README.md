@@ -1,6 +1,7 @@
 # Welcome to apt-get.co
  _a collection of code projects by [resonova](https://www.resonova.com)_
 <br>
+_live link: [apt-get.co](http://www.apt-get.co)_
 <br>
 <br>
 ## EXPLORE PROJECT PAGES
