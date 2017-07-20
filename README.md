@@ -5,17 +5,17 @@
 <br>
 ## EXPLORE PROJECT PAGES
 
-- [Matrix Rain](http://www.apt-get.co/matrix.html)
+[Matrix Rain](http://www.apt-get.co/matrix.html)
 
-- [Waves Platform Data](http://www.apt-get.co/waves.html)
+[Waves Platform Data](http://www.apt-get.co/waves.html)
 
-- [Blockchain Technology in Healthcare](http://www.apt-get.co/medical-blockchain.html)
+[Blockchain Technology in Healthcare](http://www.apt-get.co/medical-blockchain.html)
 
-- [sudo.apt-get Resources](http://sudo.apt-get.co)
+[sudo.apt-get Resources](http://sudo.apt-get.co)
 
-- [crypto-scriptor](http://www.apt-get.co/crypto-scriptor.html)
+[crypto-scriptor](http://www.apt-get.co/crypto-scriptor.html)
 
-- [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
+[Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
 <br>
 
