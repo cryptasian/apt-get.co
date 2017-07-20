@@ -7,16 +7,16 @@
 ### Explore Project Pages
 
 
-- <p>[Matrix Rain](http://www.apt-get.co/matrix.html)</p>
+- [Matrix Rain](http://www.apt-get.co/matrix.html)
 
-- <p>[Waves Platform Data](http://www.apt-get.co/waves.html)</p>
+- [Waves Platform Data](http://www.apt-get.co/waves.html)
 
-- <p>[Blockchain Technology in Healthcare](http://www.apt-get.co/medical-blockchain.html)</p>
+- [Blockchain Technology in Healthcare](http://www.apt-get.co/medical-blockchain.html)
 
-- <p>[sudo.apt-get Resources](http://sudo.apt-get.co)</p>
+- [sudo.apt-get Resources](http://sudo.apt-get.co)
 
-- <p>[crypto-scriptor](http://www.apt-get.co/crypto-scriptor.html)</p>
+- [crypto-scriptor](http://www.apt-get.co/crypto-scriptor.html)
 
-- <p>[Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)</p>
+- [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
-- <p>MORE PAGES COMING SOON</p>
+- MORE PAGES COMING SOON
