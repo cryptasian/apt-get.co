@@ -23,8 +23,11 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 
 ## HANDY CODE SNIPS
 
+<br><div>
 
 ### 1) FULL PAGE IFRAME
+
+<br></div>
 
 ```
 <iframe 
