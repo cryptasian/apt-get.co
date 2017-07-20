@@ -21,11 +21,11 @@
 
 ## HANDY CODE SNIPS
 
-<br>
 
-### FULL PAGE IFRAME
-<br>
-```<iframe 
+### 1) FULL PAGE IFRAME
+
+```
+<iframe 
     src="http://www.apt-get.co" 
     security="restricted" 
     sandbox 
@@ -43,12 +43,13 @@
   <a href="http://www.apt-get.co"> 
     Proceed to the apt-get project page.
       </a>
-</iframe> ```
- <br>
+</iframe>
+```
  
- ### TIME-STAMP FETCHER BUTTON
- <br>
-```<!DOCTYPE html>
+ ### 2) TIME-STAMP FETCHER BUTTON
+
+```
+<!DOCTYPE html>
 <html>
     <body>
         <p>Click the button to display the time.
@@ -60,5 +61,20 @@
         <p id="timeOUTPUT">
             </p>
     </body>
-</html>```
-<br>
+</html>
+```
+Here's how the button code functions when implemented properly:
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Click the button to display the time.
+        </p>
+        <button 
+            onclick="getElementById('timeOUTPUT').innerHTML=Date()">
+            CURRENT TIME
+        </button>
+        <p id="timeOUTPUT">
+            </p>
+    </body>
+</html>
