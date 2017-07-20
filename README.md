@@ -106,10 +106,10 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 
 Here's how the button code functions when implemented properly:
 
-<div>
-<!DOCTYPE html>
+<br>
+
 <html>
-<head><style>
+	<head><style>
 	.btn {
     		border: none;
     		color: white;
@@ -125,8 +125,8 @@ Here's how the button code functions when implemented properly:
 		.info {background-color: #2196F3;} /* Blue */
 		.info:hover {background: #0b7dda;}
 	</style></head>
-<body>
-        <h2>Click a button to display the time.</h2>
+	<body>
+        
         <hr><br>
 	<h3>Button 1</h3>
         <input class="btn success"
@@ -134,17 +134,16 @@ Here's how the button code functions when implemented properly:
 		  value="GET TIME"
 		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
 	<p id="timeOUTPUT1">RESULT 1</p>
-    <br>
+    	<br>
 	<h3>Button 2</h3>
 		<input class="btn info" 
     		type="button" 
     		value="GET TIME" 
     		onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
 	<p id="timeOUTPUT2">RESULT 2</p>
-    <br>
-</body>
+    	<br>
+	</body>
 </html>
-</div>
 
 <br><br>
 <br>
