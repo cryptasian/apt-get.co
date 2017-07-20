@@ -7,19 +7,23 @@ _home url: [apt-get.co](http://www.apt-get.co)_
 
 ## EXPLORE PROJECT PAGES
 
-[Matrix Rain](http://www.apt-get.co/matrix.html)
-
 [Waves Platform Data](http://www.apt-get.co/waves.html)
-
-[Blockchain Technology in Healthcare](http://www.apt-get.co/medical-blockchain.html)
-
-[sudo.apt-get Resources](http://sudo.apt-get.co)
 
 [crypto-scriptor](http://www.apt-get.co/crypto-scriptor.html)
 
 [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
 [Time Fetch](http://www.apt-get.co/time-fetch.html)
+
+[Flex Web](http://www.apt-get.co/flexweb.html)
+
+[Matrix Rain](http://www.apt-get.co/matrix.html)
+
+[Disruptive: An Introduction to Blockchain and Cryptocurrency](http://disruptive.resonova.com)
+
+[Blockchain Technology in Healthcare](http://www.apt-get.co/medical-blockchain.html)
+
+[Additional Resources Located Here: sudo.apt-get](http://sudo.apt-get.co)
 
 <br>
 <hr>
