@@ -24,7 +24,7 @@
 <br>
 
 ### FULL PAGE IFRAME
-
+<br>
 ```
 <iframe 
     src="http://www.apt-get.co" 
@@ -49,15 +49,20 @@
  <br>
  
  ### TIME-STAMP FETCHER BUTTON
- 
+ <br>
  ```
  <!DOCTYPE html>
 <html>
-<body>
-<p>Click the button to display the time.</p>
-<button onclick="getElementById('timeOUTPUT').innerHTML=Date()">CURRENT TIME</button>
-<p id="timeOUTPUT"></p>
-</body>
+    <body>
+        <p>Click the button to display the time.
+        </p>
+        <button 
+            onclick="getElementById('timeOUTPUT').innerHTML=Date()">
+            CURRENT TIME
+        </button>
+        <p id="timeOUTPUT">
+            </p>
+    </body>
 </html>
 ```
 <br>
