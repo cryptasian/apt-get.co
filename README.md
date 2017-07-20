@@ -68,7 +68,7 @@ _home url: [apt-get.co](http://www.apt-get.co)_
 
 ### 2) TIME-STAMP FETCHER BUTTON
 Live Example: [Time Fetch](http://www.apt-get.co/time-fetch.html)
-Code Compressed by [TextFixer.com](http://www.textfixer.com/html/compress-html-compression.php)
+(Code Compressed by [TextFixer.com](http://www.textfixer.com/html/compress-html-compression.php))
 
 <br>
 
@@ -80,7 +80,7 @@ Code Compressed by [TextFixer.com](http://www.textfixer.com/html/compress-html-c
 
 ### 3) BASIC RESPONSIVE WEBSITE
 Live Example: [FlexWeb](http://www.apt-get.co/flexweb.html)
-Code Compressed by [TextFixer.com](http://www.textfixer.com/html/compress-html-compression.php)
+(Code Compressed by [TextFixer.com](http://www.textfixer.com/html/compress-html-compression.php))
 
 <br>
 
