@@ -187,7 +187,7 @@ Here's how the button code functions when implemented properly:
 
 <br>
 
-First of all, be sure to make use of the following CSS code (either in an external style sheet or in your "style" tag of your HTML document):
+First of all, be sure to make use of the following CSS code either in an external style sheet or in the "style" tag of your HTML document:
 
 
 ```
