@@ -4,7 +4,8 @@
 _live link: [apt-get.co](http://www.apt-get.co)_
 <br>
 <br>
-## EXPLORE PROJECT PAGES
+
+# EXPLORE PROJECT PAGES
 
 [Matrix Rain](http://www.apt-get.co/matrix.html)
 
@@ -20,10 +21,10 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 
 <br>
 
-## HANDY CODE SNIPS
+# HANDY CODE SNIPS
 
 
-### 1) FULL PAGE IFRAME
+## 1) FULL PAGE IFRAME
 
 ```
 <iframe 
@@ -47,7 +48,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 </iframe>
 ```
  
- ### 2) TIME-STAMP FETCHER BUTTON
+ ## 2) TIME-STAMP FETCHER BUTTON
 
 ```
 <!DOCTYPE html>
@@ -64,9 +65,9 @@ _live link: [apt-get.co](http://www.apt-get.co)_
     </body>
 </html>
 ```
+
 Here's how the button code functions when implemented properly:
 
-<!DOCTYPE html>
 <html>
     <body>
         <p>Click the button to display the time.
@@ -79,3 +80,6 @@ Here's how the button code functions when implemented properly:
             </p>
     </body>
 </html>
+
+<br>
+<hr>
