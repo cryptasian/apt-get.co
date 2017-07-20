@@ -5,7 +5,7 @@ _live link: [apt-get.co](http://www.apt-get.co)_
 <br>
 <br>
 
-# EXPLORE PROJECT PAGES
+## EXPLORE PROJECT PAGES
 
 [Matrix Rain](http://www.apt-get.co/matrix.html)
 
@@ -47,9 +47,9 @@ _live link: [apt-get.co](http://www.apt-get.co)_
       </a>
 </iframe>
 ```
- 
+ <br>
  ## 2) TIME-STAMP FETCHER BUTTON
-
+<br>
 ```
 <!DOCTYPE html>
 <html>
@@ -81,5 +81,5 @@ Here's how the button code functions when implemented properly:
     </body>
 </html>
 
-<br>
+<br><br><br><br>
 <hr>
