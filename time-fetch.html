@@ -3,34 +3,36 @@
 <head><style>
 	.btn {
     		border: none;
-    		color: white;
+    		color: "white";
     		padding: 12px 26px;
-		    margin: 5px;
+		margin: 5px;
     		font-size: 16px;
     		cursor: pointer;
     		box-sizing: border-box;
-      	box-shadow: 2px 3px 4px #888888;
+      		box-shadow: 2px 3px 4px #888888;
 		}
 		.success {background-color: #4CAF50;} /* Green */
 		.success:hover {background-color: #46a049;}
 		.info {background-color: #2196F3;} /* Blue */
 		.info:hover {background: #0b7dda;}
+		.default {background-color: #e7e7e7; color: "black";} /* Gray */ 
+		.default:hover {background: #ddd;}
 	</style></head>
 <body>
   <h2>Click the "GET TIME" buttons to display the current time.</h2>
-	<input class="btn info" 
+	<input class="btn default" 
     	type="button" 
     	onclick="location.href='http://www.apt-get.co';" 
     	value="VIEW GITHUB PAGE">
-    <hr><br>
-	<h3>Button 1</h3>
+    <br><hr><br>
+	<h2>Time-Fetch Button 1</h2>
         <input class="btn success"
 		  type="button"
 		  value="GET TIME"
 		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
 	    <p id="timeOUTPUT1">RESULT 1</p>
     <hr><br>
-	<h3>Button 2</h3>
+	<h2>Time-Fetch Button 2</h2>
 		  <input class="btn info" 
     	type="button" 
     	value="GET TIME" 
