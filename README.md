@@ -70,12 +70,24 @@ Live Example: [Time Fetch](http://www.apt-get.co/time-fetch.html)
 ```
 <!DOCTYPE html>
 <html>
-<head><style>
+<head>
+	<title>TIME FETCH</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Live code example of basic styled buttons which fetch the current time">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="html, css, js, javascript, buttons, fetch current time, onclick">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto|Ubuntu" rel="stylesheet">
+	
+	<style>
+		p {font-family: 'Didact Gothic', sans-serif;}
+		h1 {font-family: 'Didact Gothic', sans-serif;}
+		h2 {font-family: 'Didact Gothic', sans-serif;}
+		h3 {font-family: 'Didact Gothic', sans-serif;}
 	.btn {
     		border: none;
-    		color: white;
+    		color: "white";
     		padding: 12px 26px;
-		    margin: 5px;
+		margin: 5px;
     		font-size: 16px;
     		cursor: pointer;
     		box-sizing: border-box;
@@ -85,24 +97,30 @@ Live Example: [Time Fetch](http://www.apt-get.co/time-fetch.html)
 		.success:hover {background-color: #46a049;}
 		.info {background-color: #2196F3;} /* Blue */
 		.info:hover {background: #0b7dda;}
+		.default {background-color: #e7e7e7; color: "black";} /* Gray */ 
+		.default:hover {background: #ddd;}
 	</style></head>
 <body>
-        <h2>Click a button to display the time.</h2>
-        <hr><br>
-	<h3>Button 1</h3>
+  <h2>Click the "GET TIME" buttons to display the current time.</h2>
+	<input class="btn default" 
+    	type="button" 
+    	onclick="location.href='http://www.apt-get.co';" 
+    	value="VIEW GITHUB PAGE">
+    <br><hr><br>
+	<h2>Time-Fetch Button 1</h2>
         <input class="btn success"
 		  type="button"
 		  value="GET TIME"
 		  onclick="getElementById('timeOUTPUT1').innerHTML=Date()">
-	<p id="timeOUTPUT1">RESULT 1</p>
-    <br>
-	<h3>Button 2</h3>
-		<input class="btn info" 
-    		type="button" 
-    		value="GET TIME" 
-    		onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
-	<p id="timeOUTPUT2">RESULT 2</p>
-    <br>
+	    <p id="timeOUTPUT1">RESULT 1</p>
+    <hr><br>
+	<h2>Time-Fetch Button 2</h2>
+		  <input class="btn info" 
+    	type="button" 
+    	value="GET TIME" 
+    	onClick="getElementById('timeOUTPUT2').innerHTML=Date()">
+	    <p id="timeOUTPUT2">RESULT 2</p>
+    <hr><br>
 </body>
 </html>
 ```
