@@ -11,7 +11,35 @@
 
 <!-- ****** SCRIPT CONFIGURATIONS ****** -->
 	<script window.document.domain = "www.apt-get.co";></script>
-	<script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        function checklength(i) {
+        'use strict';
+        if (i < 10) {
+        i = "0" + i;
+        }
+        return i;
+        }
+
+        var minutes, seconds, count, counter, timer;
+        count = 601; //seconds
+        counter = setInterval(timer, 1000);
+
+        function timer() {
+        'use strict';
+        count = count - 1;
+        minutes = checklength(Math.floor(count / 60));
+        seconds = checklength(count - minutes * 60);
+        if (count < 0) {
+        clearInterval(counter);
+        return;
+        }
+        document.getElementById("timer").innerHTML = 'Next refresh in ' + minutes + ':' + seconds + ' ';
+        if (count === 0) {
+        location.reload();
+        }
+        }
+    </script>
 
 <!-- ****** STYLE CONFIGURATIONS ****** -->		
 <style>
@@ -19,6 +47,10 @@
 		color:#0dc400;
 		font-family:"Arial";
 		}
+    h2 {
+        color: #0dc400;
+        font-family: "Arial"
+    }
 	#miframe{
 		position:relative;
 		height:120px;
@@ -82,16 +114,12 @@
 		}
 		.success {background-color: #4CAF50;} /* Green */
 		.success:hover {background-color: #367d39;}
-
 		.info {background-color: #2196F3;} /* Blue */
 		.info:hover {background: #0b7dda;}
-
 		.warning {background-color: #ff9800;} /* Orange */
 		.warning:hover {background: #e68a00;}
-
 		.danger {background-color: #f44336;} /* Red */ 
 		.danger:hover {background: #da190b;}
-
 		.default {background-color: #e7e7e7; color: black;} /* Gray */ 
 		.default:hover {background: #ddd;}
 	.icon {
@@ -103,7 +131,6 @@
 	#loader {
   		position: relative;
   		left: 50%;
-  		top: 50%;
   		z-index: 1;
   		width: 100px;
   		height: 100px;
@@ -118,17 +145,14 @@
   		-webkit-animation: spin 2s linear infinite;
   		animation: spin 1s linear infinite;
 		}
-
 	@-webkit-keyframes spin {
   		0% { -webkit-transform: rotate(0deg); }
   		100% { -webkit-transform: rotate(360deg); }
 		}
-
 	@keyframes spin {
   		0% { transform: rotate(0deg); }
   		100% { transform: rotate(360deg); }
 		}
-
 	/* Add animation to "page content" */
 		
 	.animate-bottom {
@@ -138,17 +162,14 @@
   		animation-name: animatebottom;
   		animation-duration: 1s
 		}
-
 	@-webkit-keyframes animatebottom {
   		from { bottom:-80px; opacity:0 } 
   		to { bottom:0px; opacity:1 }
 		}
-
 	@keyframes animatebottom { 
   		from{ bottom:-100px; opacity:0 } 
   		to{ bottom:0; opacity:1 }
 		}
-
 	#myDiv {
   		display: none;
   		text-align: center;
@@ -164,6 +185,8 @@
 	
 <header></header>
 <h1>CRYPTO-SCRIPTOR</h1>
+<br>
+<h2><span id="timer"></span></h2>
 <br>
 	<input class="btn danger" type="button" value="REFRESH" onClick="history.go(0)">
    	<input class="btn danger" type="button" value="GO BACK" onClick="history.go(-1)">
