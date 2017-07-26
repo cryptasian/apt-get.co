@@ -49,8 +49,12 @@
 		}
     h2 {
         color: #0dc400;
-        font-family: "Arial"
-    }
+        font-family: "Arial";
+    	}
+	p {
+		color: #0dc400;
+		font-family: "Monospace";
+	}	
 	#miframe{
 		position:relative;
 		height:120px;
@@ -61,6 +65,8 @@
 	table {
     		border-collapse: collapse;
     		width: 100%;
+			margin: 10%
+			text-align: center;
 		}
 	th, td {
     		padding: 8px;
@@ -79,8 +85,9 @@
 		}
 	 body {
 		background-color: #050505;
-		position: cover;
+		position: absolute;
 		z-index: 1;
+		width:100%;
 		background-repeat: no-repeat;
 		}
 	 header {
@@ -112,7 +119,7 @@
     		font-size: 16px;
     		cursor: pointer;
 		}
-		.success {background-color: #4CAF50;} /* Green */
+		.success {background-color: #0dc400;} /* Green */
 		.success:hover {background-color: #367d39;}
 		.info {background-color: #2196F3;} /* Blue */
 		.info:hover {background: #0b7dda;}
@@ -123,19 +130,20 @@
 		.default {background-color: #e7e7e7; color: black;} /* Gray */ 
 		.default:hover {background: #ddd;}
 	.icon {
-		height: 90px;
-		width: 90px;
+		height: 75px;
+		width: 75px;
+		margin: 5px;
 		}
 	/* Center the loader and define appearance */
 		
 	#loader {
   		position: relative;
-  		left: 50%;
+		left: 48%;
   		z-index: 1;
   		width: 100px;
   		height: 100px;
-  		margin-top: 50%;
-        margin-bottom: 50%;
+  		margin-top: 20%;
+        margin-bottom: 30%;
   		border: 16px solid #000000;
   		border-radius: 50%;
   		border-top: 16px solid #367d39;
@@ -174,75 +182,82 @@
   		display: none;
   		text-align: center;
 		}
+	.contentBox{
+		display: table;
+  		text-align: center;
+  		float: left;
+  		margin: 10px;
+    	padding: 1px;
+    	border: 1px solid #0dc400;
+    	box-sizing: border-box;
+    	box-shadow: 2px 3px 4px #367d39;
+    	width: 12%;
+    	min-width: 150px;
+    	min-height: 150px;
+		}
+
   </style>
 </head>
 		
 <!-- Initiate "loader" and "animate-bottom" to page content -->
 	<body id="" onload="myFunction()" style="margin:0;">
-		<div id="loader">
-		</div>
+		<div id="loader"></div>
 	<div style="display:none;" id="myDiv" class="animate-bottom">
 	
 <header></header>
 <h1>CRYPTO-SCRIPTOR</h1>
-<br>
+<p text-align="center">($) ¯\_(ツ)_/¯ (฿)</p>
 <h2><span id="timer"></span></h2>
 <br>
+	<input class="btn success" type="button" onclick="location.href='http://www.apt-get.co';" value="VIEW ON GITHUB">	
 	<input class="btn danger" type="button" value="REFRESH" onClick="history.go(0)">
    	<input class="btn danger" type="button" value="GO BACK" onClick="history.go(-1)">
-	<input class="btn success" type="button" onclick="location.href='http://www.apt-get.co';" value="VIEW ON GITHUB">
+	<input class="btn success" type="button" onclick="location.href='http://r.apt-get.co';" value="YOUR LOCAL TIME">
 <br>
-	
-<table>
-	<tr>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/aeon.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-aeon.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/sc.png"></img>	
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-sc.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-	</tr>
-	<br>
-	<tr>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/ans.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-ans.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/strat.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-strat.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-	</tr>
-	<br>
-	<tr>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/etc.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-etc.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/vox.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-vox.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-	</tr>
-	<br>
-	<tr>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/eth.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-eth.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/waves.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-waves.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-	</tr>
-	<br>
-	<tr>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/gnt.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-gnt.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-		<td><img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/xmr.png"></img>
-		<td><iframe id="miframe" src=" http://www.apt-get.co/gcryp0-xmr.html" scrolling="no" overlap="hidden">
-			</iframe></td>
-	</tr>
-	</table>
-	
+<hr>
 <br>
-	<!-- Conclude the animated div content and insert script to act on that div  -->
-
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/aeon.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-aeon.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/sc.png"></img>	
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-sc.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/ans.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-ans.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/strat.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-strat.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/etc.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-etc.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/vox.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-vox.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/eth.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-eth.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/waves.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-waves.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/xmr.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-xmr.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+	<div class="contentBox">
+		<img class="icon" src="http://www.apt-get.co/docs/assets/crypto-icons/gnt.png"></img>
+		<iframe id="miframe" src=" http://www.apt-get.co/gcryp0-gnt.html" scrolling="no" overlap="hidden"></iframe>
+	</div>
+		
+<!-- Conclude the animated div content and insert script to act on that div  -->
 <script>
 	var myVar;
 	function myFunction() {
