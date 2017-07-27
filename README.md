@@ -1,5 +1,5 @@
 # Welcome to apt-get.co
- _a collection of code projects by [resonova](https://www.resonova.com)_
+ _a collection of code, projects, and research by [ResoNova](https://www.resonova.com)_
 <br>
 _home url: [apt-get.co](http://www.apt-get.co)_
 <br>
