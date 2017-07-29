@@ -9,7 +9,7 @@ _home url: [apt-get.co](http://www.apt-get.co)_
 
 [Waves Platform Data](http://www.apt-get.co/waves.html)
 
-[crypto-scriptor](http://www.apt-get.co/crypto-scriptor.html)
+[Crypto-Scriptor](http://www.apt-get.co/crypto-scriptor.html)
 
 [Crypto Icons](http://www.apt-get.co/docs/assets/crypto-icons/index.html)
 
@@ -25,7 +25,7 @@ _home url: [apt-get.co](http://www.apt-get.co)_
 
 [Matrix Rain](http://www.apt-get.co/matrix.html)
 
-[Watcher Window](http://www.apt-get.co/watcher-window/)
+[Chart Watcher](http://www.apt-get.co/chart-watcher/)
 
 <br>
 
