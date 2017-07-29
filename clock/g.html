@@ -43,7 +43,46 @@ h2 {
 h2, p {
 	margin-bottom:10px;
 }
+	
+.button {
+  display: inline-block;
+  border: 2px solid #2bff47;
+  background-color: #FFFFFF;
+  color: #2bff47;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+	
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('BebasNeue-webfont.eot');
@@ -144,5 +183,8 @@ setInterval( function() {
 
 </div>
 </div>
+
+	<button class="button" style="vertical-align:middle" onclick="window.location.href='/r.html'"><span> ($) ¯\_(ツ)_/¯ (฿) </span></button>
+	
 </body>
 </html>
