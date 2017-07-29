@@ -15,6 +15,10 @@ _home url: [apt-get.co](http://www.apt-get.co)_
 
 [Time Fetch](http://www.apt-get.co/time-fetch.html)
 
+[Digital Clock (Red Edition)](http://www.apt-get.co/clock/r.html)
+
+[Digital Clock (Green Edition)](http://www.apt-get.co/clock/g.html)
+
 [Flex Web](http://www.apt-get.co/flexweb.html)
 
 [Countdown Refresh](http://www.apt-get.co/countdown-refresh.html)
