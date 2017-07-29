@@ -19,7 +19,7 @@ body{
 }
 a { 
 	text-decoration:none; 
-	color:#00ee19;
+	color:#01a317;
 }
 
 h1 {
@@ -43,16 +43,15 @@ h2 {
 h2, p {
 	margin-bottom:10px;
 }
-	
 .button {
   display: inline-block;
-  border: 2px solid #2bff47;
-  background-color: #FFFFFF;
-  color: #2bff47;
+  border: 2px solid #01a317;
+  background-color: #000000;
+  color: #01a317;
   text-align: center;
   font-size: 16px;
   padding: 10px;
-  width: 150px;
+  width: 175px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 0px;
@@ -82,7 +81,7 @@ h2, p {
   opacity: 1;
   right: 0;
 }
-	
+
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('BebasNeue-webfont.eot');
@@ -97,34 +96,34 @@ h2, p {
 
 .container {width: 960px; margin:0 auto; overflow: hidden;}
 
-.cclock {width:800px; margin:0 auto; padding:30px; border:0px transparent #333; color:#fff; }
+.cclock {width:800px; margin:0 auto; padding:30px; border:0px transparent #333; color:#01a317; }
 
-#Date { font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; font-size:36px; text-align:center; text-shadow:0 0 6px #00ee19; }
+#Date { font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; font-size:36px; text-align:center; text-shadow:0 0 8px #a00000; }
 
 ul { width:800px; margin:0 auto; padding:0px; list-style:none; text-align:center; }
-ul li { display:inline; font-size:10em; text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; text-shadow:0 0 6px #00ee19; }
+ul li { display:inline; font-size:10em; text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; text-shadow:0 0 8px #a00000; }
 
 #point { position:relative; animation:mymove 1s ease infinite; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:8px; padding-right:8px; }
 
-@keyframes mymove 
+@keyframes mymove
 {
-0% {opacity:1.0; text-shadow:0 0 18px #00ee19;}
+0% {opacity:1.0; text-shadow:0 0 18px #01a317;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 18px #00ee19; }	
+100% {opacity:1.0; text-shadow:0 0 18px #01a317; }
 }
 
 @-webkit-keyframes mymove 
 {
-0% {opacity:1.0; text-shadow:0 0 18px #00ee19;}
+0% {opacity:1.0; text-shadow:0 0 18px #01a317;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 18px #00ee19; }	
+100% {opacity:1.0; text-shadow:0 0 18px #01a317; }	
 }
 
 @-moz-keyframes mymove 
 {
-0% {opacity:1.0; text-shadow:0 0 18px #00ee19;}
+0% {opacity:1.0; text-shadow:0 0 18px #01a317;}
 50% {opacity:0; text-shadow:none; }
-100% {opacity:1.0; text-shadow:0 0 18px #00ee19; }	
+100% {opacity:1.0; text-shadow:0 0 18px #01a317; }	
 }
 
 </style>
@@ -174,17 +173,19 @@ setInterval( function() {
 <div id="Date"></div>
 
 <ul>
+	
 	<li id="hours"> </li>
     <li id="point">:</li>
     <li id="min"> </li>
     <li id="point">:</li>
     <li id="sec"> </li>
 </ul>
+<ul>
+	<li><button class="button" style="vertical-align:middle" onclick="window.location.href='/r.html'"><span> ($) ¯\_(ツ)_/¯ (฿) </span></button></li>
+</ul>
 
 </div>
 </div>
-
-	<button class="button" style="vertical-align:middle" onclick="window.location.href='/r.html'"><span> ($) ¯\_(ツ)_/¯ (฿) </span></button>
 	
 </body>
 </html>
