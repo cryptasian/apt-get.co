@@ -21,6 +21,8 @@ _home url: [apt-get.co](http://www.apt-get.co)_
 
 [Digital Clock (Green Edition)](http://www.apt-get.co/clock/g.html)
 
+[Clock Watcher (popout clocks)](http://www.apt-get.co/clock/clockwatcher.html)
+
 [Flex Web](http://www.apt-get.co/flexweb.html)
 
 [Countdown Refresh](http://www.apt-get.co/countdown-refresh.html)
