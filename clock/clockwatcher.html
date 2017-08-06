@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clock Watcher</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="Full-screen popout clocks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="popout clocks, digital clock, popout html">
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto|Ubuntu" rel="stylesheet">
+		
+		<script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+			</script>
+    	<script>
+        function checklength(i) {
+        'use strict';
+        if (i < 10) {
+        i = "0" + i;
+        }
+        return i;
+        }
+
+        var minutes, seconds, count, counter, timer;
+        count = 601; //seconds
+        counter = setInterval(timer, 1000);
+
+        function timer() {
+        'use strict';
+        count = count - 1;
+        minutes = checklength(Math.floor(count / 60));
+        seconds = checklength(count - minutes * 60);
+        if (count < 0) {
+        clearInterval(counter);
+        return;
+        }
+        document.getElementById("timer").innerHTML = 'Next refresh in ' + minutes + ':' + seconds + ' ';
+        if (count === 0) {
+        location.reload();
+        }
+        }
+    		</script>
+		
+		<style>
+			* {box-sizing: border-box;}
+				.header {background-color: #0b7dda; color: #000000; padding: 15px;}
+      			.footer {background-color: #0b7dda; color: #000000; padding: 15px; font-color: #ffffff;}
+				.column {float: left; padding: 15px;}
+				.clearfix::after {content: ""; clear: both; display: table;}
+				.menu {width: 28%; font-family: 'Didact Gothic', sans-serif;}
+				.content {width: 60%;}
+				.white {color: white;}
+                .dark {color:black;}
+				.menu ul {list-style-type: none; margin: 0; padding: 0;}
+				.menu li {
+          			border: none;
+          			color: #ffffff;
+          			padding: 8px 8px;
+          			margin: 8px; 
+          			width: 95%;
+    				font-size: 16px;
+    				cursor: pointer;
+    				box-sizing: border-box;
+      				box-shadow: 2px 3px 4px #000000;
+          			background-color: #f44336; 
+          			text-align: center;
+          			}
+				.menu li:hover {background-color: #da190b;}
+			body{
+                background-color:black;
+            }	
+			h1 {
+				font-family: "Roboto";
+				margin: 10px;
+			}
+			h2 {
+				font-family: "Roboto";
+				margin: 10px;
+			}
+			h3 {
+				font-family: "Roboto";
+				margin: 10px;
+			}
+			h4 {
+				font-family: "Roboto";
+				margin: 20px;
+			}
+			p {
+				font-family: "Roboto";
+			}
+			.btn {
+    			border: none;
+    			color: #ffffff;
+    			padding: 8px 8px;
+				margin: 10px;
+          		max-width: 50%;
+          		min-width: 240px;
+    			font-size: 14px;
+    			cursor: pointer;
+    			box-sizing: border-box;
+      			box-shadow: 2px 3px 4px #000000;
+				}
+					.success {background-color: #4CAF50;} /* Green */
+					.success:hover {background-color: #46a049;}
+					.info {background-color: #2196F3;} /* Blue */
+					.info:hover {background: #0b7dda;}
+          			.warning {background-color: #ff9800;} /* Orange */
+					.warning:hover {background: #e68a00;}
+					.danger {background-color: #f44336;} /* Red */ 
+					.danger:hover {background: #da190b;}
+					.default {background-color: #e7e7e7; color: "black";} /* Gray */ 
+					.default:hover {background: #ddd;}
+
+/* Center the loader and define appearance */	
+	#loader {
+  		position: relative;
+		left: 48%;
+  		z-index: 1;
+  		width: 100px;
+  		height: 100px;
+  		margin-top: 20%;
+        margin-bottom: 30%;
+  		border: 2px solid transparant;
+  		border-radius: 50%;
+  		border-top: 16px solid #367d39;
+  		border-bottom: 16px solid #367d39;
+  		-webkit-animation: spin 2s linear infinite;
+  		animation: spin 1s linear infinite;
+		}
+	@-webkit-keyframes spin {
+  		0% { -webkit-transform: rotate(0deg); }
+  		100% { -webkit-transform: rotate(360deg); }
+		}
+	@keyframes spin {
+  		0% { transform: rotate(0deg); }
+  		100% { transform: rotate(360deg); }
+		}
+	/* Add animation to "page content" */
+		
+	.animate-bottom {
+  		position: relative;
+  		-webkit-animation-name: animatebottom;
+  		-webkit-animation-duration: 1s;
+  		animation-name: animatebottom;
+  		animation-duration: 1s
+		}
+	@-webkit-keyframes animatebottom {
+  		from { bottom:-80px; opacity:0 } 
+  		to { bottom:0px; opacity:1 }
+		}
+	@keyframes animatebottom { 
+  		from{ bottom:-100px; opacity:0 } 
+  		to{ bottom:0; opacity:1 }
+		}
+	#myDiv {
+  		display: none;
+  		text-align: left;
+		}
+        
+	</style>
+	</head>
+	
+<!-- Initiate "loader" and "animate-bottom" to page content -->
+
+	<body id="" onload="myFunction()" style="margin:0;">
+	<div id="loader"></div>
+	<div style="display:none;" id="myDiv" class="animate-bottom">
+	
+	<div class="header">
+	
+	<h1 class="white">CLOCK WATCHER</h1>
+	<input class="btn danger" type="button" onclick="location.href='http://www.apt-get.co';" value="($) ¯\_(ツ)_/¯ (฿)">
+
+	<p class="white">POPOUT WINDOW CLOCKS</p>
+	</div>
+	<br>
+<h2 class="white">CHOOSE YOUR CLOCK</h2>
+<hr>
+<br>
+
+<p><button class="btn danger" onclick="ansbtcFunction()">RED CLOCK</button>
+<script>
+		function ansbtcFunction() {
+    		var x = document.doctype.name;
+    		window.open("http://www.apt-get.co/clock/r.html", "_blank","width=1000,height=600,resizable");
+		}
+	</script></p>
+	<p><button class="btn success" onclick="btsbtcFunction()">GREEN CLOCK</button>
+	<script>
+		function btsbtcFunction() {
+    		var x = document.doctype.name;
+    		window.open("http://www.apt-get.co/clock/g.html", "_blank","width=1000,height=600,resizable");
+		}
+	</script></p>
+    <br>
+	<br>
+	
+<div class="footer" >
+        	<p class="p2"><i>think outside the box</i></p>
+        	
+		</div>
+	
+<!-- Conclude the animated div content and insert script to act on that div  -->
+<script>
+	var myVar;
+	function myFunction() {
+	    myVar = setTimeout(showPage, 2000);
+		}
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("myDiv").style.display = "block";
+		}
+	</script>
+	
+	</body>
+</html>
